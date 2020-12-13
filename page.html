@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="page.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="notice">
+
+  </div>
+  <!-- 待办提醒 -->
+  <div class="to-do-reminder">
+    <div class="reminder-tag">待办提醒</div>
+    <div class="reminder-content">
+      <div class="student-time content1">
+        <img class="content1-img" src="pc_slices/ (33).png">
+        <ul>
+          <li>按时间学员将到期266位</li>
+          <li>按课时学员将到期266位</li>
+          <li>按学期学员将到期388位</li>
+        </ul>
+      </div>
+      <div class="deal-arrears content">
+        <img class="content1-img" src="pc_slices/ (28).png">
+        <div>
+          <div class="content-data">0</div>
+          <div class="content-tag">待处理欠费</div>
+        </div>
+      </div>
+      <div class="wait-attendance content">
+        <img class="content1-img" src="pc_slices/ (28).png">
+        <div>
+          <div class="content-data">22</div>
+          <div class="content-tag">待考勤</div>
+        </div>
+      </div>
+      <div class="wait-comment content">
+        <img class="content1-img" src="pc_slices/ (40).png">
+        <div>
+          <div class="content-data">3</div>
+          <div class="content-tag">待点评作业</div>
+        </div>
+      </div>
+      <div class="wait-return-visit content">
+        <img class="content1-img" src="pc_slices/ (36).png">
+        <div>
+          <div class="content-data">30000</div>
+          <div class="content-tag">待回访</div>
+        </div>
+      </div>
+      <div class="wait-deal-application content">
+        <img class="content1-img" src="pc_slices/ (37).png">
+        <div>
+          <div class="content-data">10000</div>
+          <div class="content-tag">待处理申请</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- 下部分总体 -->
+  <div class="operation-part">
+    <!-- 左侧内容 -->
+    <div class="main-function">
+      <div id="initial-setup">
+        <div class="initial-tag tag">
+          四步快速完成
+          <span>初始设置</span>
+          <div class="setup-course">已完成<span>2/4</span>步</div>
+          <div id="setup-hide">
+            <div onclick="hidediv()" class="iocn">
+              <span>收起</span>
+              <img src="pc_slices/ (69).png" alt="收起图标">
+            </div>
+          </div>
+          <div id="setup-show" style="display: none">
+            <div onclick=" showdiv()" class="iocn">
+              <span>展开</span>
+              <img src="pc_slices/ (63).png" alt="展开图标">
+            </div>
+          </div>
+        </div>
+        <div id="setup-content">
+          <div class="content2">
+            <img class="content2-img" src="pc_slices/ (13).png" alt="">
+            <div class="setup-tag"><span>员工</span>设置</div>
+            <ul>
+              <li>创建账号</li>
+              <li>分配权限</li>
+            </ul>
+
+          </div>
+          <div class="content2">
+            <img class="content2-img" src="pc_slices/ (39).png" alt="">
+            <div class="setup-tag"><span>课程</span>设置</div>
+            <ul>
+              <li>收费模式</li>
+              <li>课程价格</li>
+            </ul>
+          </div>
+          <div class="content2">
+            <img class="content2-img" src="pc_slices/ (48).png" alt="">
+            <div class="setup-tag"><span>班级</span>设置</div>
+            <ul>
+              <li>班级名称</li>
+              <li>满班人数</li>
+            </ul>
+          </div>
+          <div class="content2">
+            <img class="content2-img" src="pc_slices/ (18).png" alt="">
+            <div class="setup-tag"><span>学员</span>设置</div>
+            <ul>
+              <li>学员信息</li>
+              <li>批量导入</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="common-function layout">
+        <div class="common-tag tag">常用功能</div>
+        <div class="common-content ">
+          <div class="content3">
+            <img class="content3-img" src="pc_slices/ (61).png" alt="">
+            <div>
+              <div class="content3-tag">查询记录</div>
+              <div class="content3-content">今日查询<span>12</span></div>
+            </div>
+          </div>
+          <div class="content3">
+            <img class="content3-img" src="pc_slices/ (55).png" alt="">
+            <div>
+              <div class="content3-tag">报名续费</div>
+              <div class="content3-content">今日报名续费<span style="color: rgb(30, 138, 255); ;">8</span></div>
+            </div>
+          </div>
+          <div class="content3">
+            <img class="content3-img" src="pc_slices/ (56).png" alt="">
+            <div>
+              <div class="content3-tag">排课</div>
+
+            </div>
+          </div>
+          <div class="content3">
+            <img class="content3-img" src="pc_slices/ (61).png" alt="">
+            <div>
+              <div class="content3-tag">记上课</div>
+              <div class="content3-content">今日上课记录<span>30</span></div>
+            </div>
+          </div>
+          <div class="content3">
+            <img class="content3-img" src="pc_slices/ (57).png" alt="">
+            <div>
+              <div class="content3-tag">家校通知</div>
+
+            </div>
+          </div>
+          <div class="content3">
+            <img class="content3-img" src="pc_slices/ (58).png" alt="">
+            <div>
+              <div class="content3-tag">作业</div>
+
+            </div>
+          </div>
+          <div class="content3">
+            <img class="content3-img" src="pc_slices/ (59).png" alt="">
+            <div>
+              <div class="content3-tag">班级</div>
+
+            </div>
+          </div>
+          <div class="content3">
+            <img class="content3-img" src="pc_slices/ (60).png" alt="">
+            <div>
+              <div class="content3-tag">工资</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="today-situation layout" style="height: 250px;">
+        <div class="situation-tag tag">今日总览</div>
+        <div class="situation-content">
+          <ul>
+            <li>新生报名</li>
+            <li>老生报名</li>
+            <li>新增报名</li>
+          </ul>
+        </div>
+        <div></div>
+      </div>
+    </div>
+    <!-- 右侧内容 -->
+    <div class="product-dynamics">
+      <div class="dynamics-tag">
+        <div class="dynamics">
+          <div>产品动态</div>
+          <div class="iocn" style="margin-left: 85px;">
+            <span>更多</span>
+            <img src="pc_slices/ (64).png" alt="展开图标">
+          </div>
+        </div>
+        <div class="dynamics-content">
+          <div class="content4">
+            <span>功能更新</span>
+            <span>|</span>
+            <span>产品动态内容...</span>
+            <span>&nbsp&nbsp&nbsp&nbsp12/23</span>
+          </div>
+          <div class="content4">
+            <span>功能更新</span>
+            <span>|</span>
+            <span>产品动态内容...</span>
+            <span>&nbsp&nbsp&nbsp&nbsp12/23</span>
+          </div>
+          <div class="content4">
+            <span>功能更新</span>
+            <span>|</span>
+            <span>产品动态内容...</span>
+            <span>&nbsp&nbsp&nbsp&nbsp12/23</span>
+          </div>
+          <div class="content4">
+            <span>功能更新</span>
+            <span>|</span>
+            <span>产品动态内容...</span>
+            <span>&nbsp&nbsp&nbsp&nbsp12/23</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="dynamics-img">
+        <img class="dynamics-bg" src="pc_slices/ (49).png" alt="">
+      </div>
+      <div class="operation-guidance">
+        <div class="dynamics" style="margin-bottom:10px ;">
+          运营指导
+        </div>
+        <div class="functional-classroom " style="display: flex;justify-content: center;align-items: center;">
+          <div>
+            <div class="content5-tag">功能课堂</div>
+            <div class="content5-content">核心功能精讲，天天直播快速掌握系统使用</div>
+          </div>
+          <img class="content5-img" src="pc_slices/ (49).png" alt="">
+        </div>
+        <div style="display: flex;margin-top: 10px;margin-left: 10px;">
+          <div class="high-quality-scheme content5">
+            <img class="content5-img" src="pc_slices/ (49).png" alt="">
+            <div class="content5-tag">优质方案</div>
+            <div class="content5-content">带你学习管理方法</div>
+          </div>
+          <div class="exchange-learning content5">
+            <img class="content5-img" src="pc_slices/ (49).png" alt="">
+            <div class="content5-tag">学习交流</div>
+            <div class=" content5-content">带你学习管理方法</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+<script src="page.js"></script>
+
+</html>
